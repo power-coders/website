@@ -1,23 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-
-// font-family: 'Inconsolata', monospace;
-// font-family: 'Roboto Mono', monospace;
-// font-family: 'Source Code Pro', monospace;
-// font-family: 'Droid Sans Mono', monospace;
-// font-family: 'VT323', monospace;
-// font-family: 'Space Mono', monospace;
-// font-family: 'PT Mono', monospace;
-// font-family: 'Ubuntu Mono', monospace;
-// font-family: 'Anonymous Pro', monospace;
-// font-family: 'Cousine', monospace;
-// font-family: 'Oxygen Mono', monospace;
-// font-family: 'Cutive Mono', monospace;
-// font-family: 'Fira Mono', monospace;
-// font-family: 'Share Tech Mono', monospace;
-// font-family: 'Nova Mono', monospace;
-
 body {
-  font-family: "Source Code Pro";
+  font-family: monospace;
   font-size: $base-font-size;
   line-height: 150%;
 }
