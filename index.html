@@ -1,25 +1,44 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-title: Hello
 ---
-<div class="hero"><img src="assets/images/logo.png" alt="logo">
-<p class="hero-claim">Impacting lives by teaching to code</p></div>
-<main>
-<p>Powercoders is a coding academy for refugees. The first 12 weeks boot-camp will take place from January to April 2017 in Bern.
-</p>
+<div class="hero">
+  <img src="assets/images/logo.png" alt="logo">
+  <p class="hero-claim">Impacting lives by teaching to code</p>
+</div>
 
-<h2>Students</h2>
-<p>The first boot-camp will start in January 2017 and last 12 weeks. After that there will be a 3 months internship. On a mutual agreement the internship can be extended for another 3 months. The aim is ultimately permanent positions  in Swiss IT-companies.<br>
-If you are a refugee in Switzerland please <a href="mailto:chris@pacific-catch.ch">get in touch with us.</a></p>
-<h2>Companies</h2>
-<p>We focus on the skills shortage in the IT industry. Especially in demand are currently employees in the "Frontend Development". The feedback from small to large IT companies and IT departments is so far overwhelming. The following companies are participating:
-LOGOS
-Are you interested in our program? Please fill in our <a href="#">survey</a></p>
-<h2>Partners</h2>
-<p>Our program needs financial support:<br> If you can help us out. Please contact us, any small contribution is welcome</p>
-<h2>Contact</h2>
-<a href="mailto:chris@pacific-catch.ch">chris@pacific-catch.ch</a>
+<main>
+  <p>Powercoders is a coding academy for refugees. The first 12 weeks boot-camp will take place from January to April 2017 in Bern.</p>
+
+  <h2>ReBootcamp-17-BRN<br>Jan - Apr 2017</h2>
+  <p>The 3 month coding bootcamp is followed by a 3 month trainee program. The trainee program can be extended by another 3 months. The ultimate goal of the ReBootcamp is the permanent placement of trained refugees in IT-companies and IT-departments in the Canton of Berne. </p>
+
+  {% include call-to-action.html
+      title="Refugees?"
+      description="Are you a refugee interested in participating?"
+      link_url="mailto:chris@pacific-catch.ch"
+      link_text="Get in touch with us"
+  %}
+
+  <h2>Companies</h2>
+  <p>There is a shortage of skilled IT-workers, especially frontend developers. We presented our idea to IT-companies of all sizes and so far the positive response has been overwhelming.</p>
+
+  {% include call-to-action.html
+      title="Developer?"
+      description="Are you a developer? Do you want to teach?"
+      link_url="https://goo.gl/forms/oK3VWdMuyIQm3wzD3"
+      link_text="Fill out the survey"
+  %}
+
+  {% include call-to-action.html
+      title="IT Company?"
+      description="Are you an IT-company operating in the Canton of Berne? Do you want to offer a trainee programm? "
+      link_url="mailto:chris@pacific-catch.ch"
+      link_text="Get in touch with us"
+  %}
+
+  <h2>Partners</h2>
+  <p>Our main partner for ReBootcamp-17-BRN is Migros-Kulturprozent</p>
+  <p>Our program needs financial support:<br> If you can help us out. Please contact us, any small contribution is welcome</p>
+  <h2>Contact</h2>
+  <a href="mailto:chris@pacific-catch.ch">chris@pacific-catch.ch</a>
 </main>

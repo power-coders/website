@@ -3,6 +3,12 @@
 @import "base";
 @import "typography";
 
+// layouts
+
+@import "layouts/default";
+
+
 // modules
 
 @import "modules/hero";
+@import "modules/call-to-action";
