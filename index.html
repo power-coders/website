@@ -38,6 +38,9 @@ layout: default
 
   <h2>Partners</h2>
   <p>Our main partner for ReBootcamp-17-BRN is Migros-Kulturprozent</p>
+  {% for partner in site.data.partners %}
+    <a href="{{partner.url}}"><img class="partner" src="assets/images/partner/{{partner.logo}}"></a>
+  {% endfor %}
   <p>Our program needs financial support:<br> If you can help us out. Please contact us, any small contribution is welcome</p>
   <h2>Contact</h2>
   <a href="mailto:chris@pacific-catch.ch">chris@pacific-catch.ch</a>

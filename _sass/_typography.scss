@@ -6,12 +6,11 @@ body {
 
 h1, h2, h3, h4 {
   text-align: center;
-  margin: 2em 0 1em;
+  margin: 4em 0 2em;
   font-weight: bold;
 }
 
 h2::before, h2::after {
-  font-size: 100%;
   opacity: 0.2;
 }
 
