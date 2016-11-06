@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: inherit;
+  justify-content: center;;
+}
+
+.flex > * {
+  flex: 1 0 10em;
+}
