@@ -10,41 +10,50 @@ layout: default
 </aside>
 
 <main>
-  <p>Powercoders is a coding academy for refugees. The first 12 weeks training will take place from January to April 2017 in Bern.</p>
+  <div class="container">
+    <p>Powercoders is a coding academy for refugees. The first 12 weeks training will take place from January to April 2017 in Bern.</p>
+  </div>
 
-  <h2>Training Berne, Switzerland<br>Jan - Apr 2017</h2>
-  <p>The 3 month coding academy is followed by a 3 month trainee program. The trainee program can be extended by another 3 months. The ultimate goal is the permanent placement of trained refugees in IT-companies and IT-departments in the Canton of Berne. </p>
+  <div class="container-wide flex">
 
-  {% include call-to-action.html
-      title="Refugees?"
-      description="Are you a refugee interested in participating?"
-      link_url="mailto:chris@pacific-catch.ch"
-      link_text="Get in touch with us"
-  %}
+      {% include call-to-action.html
+          title="Refugees?"
+          description="Are you a refugee interested in participating?"
+          link_url="mailto:chris@pacific-catch.ch"
+          link_text="Get in touch with us"
+      %}
 
-  <h2>Companies</h2>
-  <p>There is a shortage of skilled IT-workers, especially frontend developers. We presented our idea to IT-companies of all sizes and so far the positive response has been overwhelming.</p>
+      {% include call-to-action.html
+          title="Developer?"
+          description="Are you a developer? Do you want to teach?"
+          link_url="https://goo.gl/forms/oK3VWdMuyIQm3wzD3"
+          link_text="Fill out the survey"
+      %}
 
-  {% include call-to-action.html
-      title="Developer?"
-      description="Are you a developer? Do you want to teach?"
-      link_url="https://goo.gl/forms/oK3VWdMuyIQm3wzD3"
-      link_text="Fill out the survey"
-  %}
+      {% include call-to-action.html
+          title="IT Company?"
+          description="Are you an IT-company operating in the Canton of Berne? Do you want to offer a trainee programm? "
+          link_url="mailto:chris@pacific-catch.ch"
+          link_text="Get in touch with us"
+      %}
 
-  {% include call-to-action.html
-      title="IT Company?"
-      description="Are you an IT-company operating in the Canton of Berne? Do you want to offer a trainee programm? "
-      link_url="mailto:chris@pacific-catch.ch"
-      link_text="Get in touch with us"
-  %}
+  </div>
 
-  <h2>Partners</h2>
-  <p>Our main partner for is Migros-Kulturprozent</p>
-  {% for partner in site.data.partners %}
-    <a href="{{partner.url}}"><img class="partner" src="assets/images/partner/{{partner.logo}}"></a>
-  {% endfor %}
-  <p>We are a non profit organisation and need your support! Any small contribution is welcome. Please get in touch with our Head of School Bern, <a href="mailto:chris@pacific-catch.ch">Christian Hirsig</a></p>
-  <h2>Contact</h2>
-  <a href="mailto:chris@pacific-catch.ch">chris@pacific-catch.ch</a>
+  <div class="container">
+    <h2>Training Berne, Switzerland<br>Jan - Apr 2017</h2>
+    <p>The 3 month coding academy is followed by a 3 month trainee program. The trainee program can be extended by another 3 months. The ultimate goal is the permanent placement of trained refugees in IT-companies and IT-departments in the Canton of Berne. </p>
+
+    <h2>Companies</h2>
+    <p>There is a shortage of skilled IT-workers, especially frontend developers. We presented our idea to IT-companies of all sizes and so far the positive response has been overwhelming.</p>
+
+
+    <h2>Partners</h2>
+    <p>Our main partner for is Migros-Kulturprozent</p>
+    {% for partner in site.data.partners %}
+      <a href="{{partner.url}}"><img class="partner" src="assets/images/partner/{{partner.logo}}"></a>
+    {% endfor %}
+    <p>We are a non profit organisation and need your support! Any small contribution is welcome. Please get in touch with our Head of School Bern, <a href="mailto:chris@pacific-catch.ch">Christian Hirsig</a></p>
+    <h2>Contact</h2>
+    <a href="mailto:chris@pacific-catch.ch">chris@pacific-catch.ch</a>
+  </div>
 </main>
