@@ -1,16 +1,19 @@
 ---
 layout: default
 ---
-<div class="hero">
-  <img src="assets/images/logo.png" alt="logo">
-  <p class="hero-claim">Impacting lives by teaching to code</p>
-</div>
+
+<aside>
+  <div class="hero">
+    <img src="assets/images/logo.png" alt="logo">
+    <p class="hero-claim">Impacting lives by teaching to code</p>
+  </div>
+</aside>
 
 <main>
-  <p>Powercoders is a coding academy for refugees. The first 12 weeks boot-camp will take place from January to April 2017 in Bern.</p>
+  <p>Powercoders is a coding academy for refugees. The first 12 weeks training will take place from January to April 2017 in Bern.</p>
 
-  <h2>ReBootcamp-17-BRN<br>Jan - Apr 2017</h2>
-  <p>The 3 month coding bootcamp is followed by a 3 month trainee program. The trainee program can be extended by another 3 months. The ultimate goal of the ReBootcamp is the permanent placement of trained refugees in IT-companies and IT-departments in the Canton of Berne. </p>
+  <h2>Training Berne, Switzerland<br>Jan - Apr 2017</h2>
+  <p>The 3 month coding academy is followed by a 3 month trainee program. The trainee program can be extended by another 3 months. The ultimate goal is the permanent placement of trained refugees in IT-companies and IT-departments in the Canton of Berne. </p>
 
   {% include call-to-action.html
       title="Refugees?"
@@ -37,11 +40,11 @@ layout: default
   %}
 
   <h2>Partners</h2>
-  <p>Our main partner for ReBootcamp-17-BRN is Migros-Kulturprozent</p>
+  <p>Our main partner for is Migros-Kulturprozent</p>
   {% for partner in site.data.partners %}
     <a href="{{partner.url}}"><img class="partner" src="assets/images/partner/{{partner.logo}}"></a>
   {% endfor %}
-  <p>Our program needs financial support:<br> If you can help us out. Please contact us, any small contribution is welcome</p>
+  <p>We are a non profit organisation and need your support! Any small contribution is welcome. Please get in touch with our Head of School Bern, <a href="mailto:chris@pacific-catch.ch">Christian Hirsig</a></p>
   <h2>Contact</h2>
   <a href="mailto:chris@pacific-catch.ch">chris@pacific-catch.ch</a>
 </main>
