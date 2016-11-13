@@ -1,0 +1,28 @@
+.container {
+  padding: 1rem;
+  width: 100%;
+
+  &.is-alt-color {
+    background-color: $color-alt;
+  }
+
+  & > * {
+    display: block;
+    margin: 0 auto;
+    max-width: 40em;
+  }
+
+  &.is-wide > * {
+    max-width: 60em;
+  }
+
+  &.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    * {
+      flex: 1 0 auto;
+    }
+  }
+}

@@ -1,18 +1,7 @@
 body {
-  padding: 1em 1em 6em 1em;
   max-width: 100%;
 }
 
-a, a:active {
-  color: blue;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 40em;
-}
-
-.container-wide {
-  margin: 0 auto;
-  width: 60em;
+a {
+  text-decoration: underline;
 }

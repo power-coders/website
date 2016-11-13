@@ -1,27 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700|Roboto+Slab');
+
+$font: 'Roboto Slab', serif;
+$font-alt: 'Roboto', sans-serif;
+
 body {
-  font-family: monospace;
+  font-family: $font;
   font-size: $base-font-size;
   line-height: 150%;
 }
 
 h1, h2, h3, h4 {
+  font-family: $font-alt;
   text-align: center;
-  margin: 4em 0 2em;
-  font-weight: bold;
+  padding: 4em 0 2em;
+  font-weight: 700;
 }
-
-h2::before, h2::after {
-  opacity: 0.2;
-}
-
-h2::before {
-  content: "<h2>";
-}
-
-h2::after {
-  content: "</h2>";
-}
-
 
 h1 {
   font-size: 150%;
