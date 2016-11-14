@@ -9,10 +9,19 @@ body {
   line-height: 150%;
 }
 
+@media (min-width: $break-point-small) {
+    body {font-size: $base-font-size*1.2;}
+}
+
+@media (min-width: $break-point-large) {
+    body {font-size: $base-font-size*1.4;}
+}
+
+
 h1, h2, h3, h4 {
   font-family: $font-alt;
   text-align: center;
-  padding: 4em 0 2em;
+  padding: 3em 0 1em;
   font-weight: 700;
 }
 
@@ -24,11 +33,34 @@ h2 {
   font-size: 120%;
 }
 
-
-@media (min-width: $break-point-small) {
-    body {font-size: $base-font-size*1.2;}
+h3 {
+  padding: 1em 0 1em;
 }
 
-@media (min-width: $break-point-large) {
-    body {font-size: $base-font-size*1.4;}
+h2:before, h2:after {
+  color: $color-accent;
+  display: inline-block;
+  padding: 0 0.1em;
+}
+
+h2:before {
+  content: "{";
+}
+
+h2:after {
+  content: "}";
+}
+
+p {
+  padding-bottom: 1em;
+}
+
+// utility classes
+
+.is-lead {
+  font-size: 120%;
+}
+
+.is-centered {
+  text-align: center;
 }

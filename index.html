@@ -2,59 +2,115 @@
 layout: default
 ---
 
-<aside class="container">
-  <div class="hero">
-    <img src="assets/images/logo.svg" alt="logo">
+<aside class="container hero">
+    <img src="assets/images/logo.svg" alt="logo" class="hero-logo">
     <p class="hero-claim">Impacting lives by teaching to code</p>
-  </div>
+    <img src="assets/images/desk.png" class="hero-image">
 </aside>
 
 <main>
   <div class="container is-alt-color">
-    <p>Powercoders is a coding academy for refugees. The first 12 weeks training will take place from January to April 2017 in Bern.</p>
+    <p class="is-lead">Powercoders is a coding academy for refugees, located in
+      Bern at the <a href="https://www.effinger.ch/">Effinger
+      Coworking Space</a>. The first 12 week training for highly qualified refugees
+      will take place from January to April 2017.</p>
+
+    <p>The 3 months coding academy is followed by a 3 months internship.
+      The internship can be extended by another 3 months. The ultimate goal of
+      the Powercoders pilot in Bern is the permanent placement of trained
+      refugees in IT-companies and IT-departments in the Canton of Bern.
+      Participation is free of charge (laptop, food and transportation are
+      offered) and includes a mentoring program.</p>
   </div>
 
   <div class="container is-wide is-flex is-alt-color">
 
       {% include call-to-action.html
-          title="Refugees?"
-          description="Are you a refugee interested in participating?"
+          title="We are looking for students."
+          description="
+            <p>The program is primarily meant for refugees (status
+            B and F) but also other migrants. We are looking for women and men
+            with experience or a special talent in IT. We are expecting fluency
+            in English and full commitment.</p>
+            <p>Are you interested to participate as a student?
+            <strong>Apply as soon as possible and latest by December
+            9th</strong>.</p>"
           link_url="mailto:chris@pacific-catch.ch"
-          link_text="Get in touch with us"
+          link_text="Apply now!"
       %}
 
       {% include call-to-action.html
-          title="Developer?"
-          description="Are you a developer? Do you want to teach?"
-          link_url="https://goo.gl/forms/oK3VWdMuyIQm3wzD3"
-          link_text="Fill out the survey"
+          title="We are looking for mentors."
+          description="
+            <p>Arriving in a new country is never easy. Our students have to learn
+            a lot about how Switzerland works as a country but also how we work
+            as a society. Therefore we want to support them with mentors at eye
+            level throughout the whole program. More information concerning the
+            mentoring you find here (in German).</p>
+            <p>Are you interested to participate as a mentor? Apply as soon as
+            possible and latest by December 16th. Apply now"
+          link_url="mailto:chris@pacific-catch.ch"
+          link_text="Apply now!"
       %}
 
       {% include call-to-action.html
-          title="IT Company?"
-          description="Are you an IT-company operating in the Canton of Berne? Do you want to offer a trainee programm? "
+          title="We are looking for developers and IT-companies."
+          description="
+            <p>There is a shortage of skilled IT-workers, especially frontend
+            developers. We presented our idea to IT-companies of all sizes and
+            so far the positive response has been overwhelming.</p>
+            <p>Are you a developer or an IT-company in the Canton of Berne and
+            interested in supporting our program by teaching or offering a
+            trainee program? Please contact us.</p>"
           link_url="mailto:chris@pacific-catch.ch"
           link_text="Get in touch with us"
       %}
-
   </div>
 
   <div class="container">
-    <h2>Training Berne, Switzerland<br>Jan - Apr 2017</h2>
-    <p>The 3 month coding academy is followed by a 3 month trainee program. The trainee program can be extended by another 3 months. The ultimate goal is the permanent placement of trained refugees in IT-companies and IT-departments in the Canton of Berne. </p>
-    <p>The training is free for the refugees, but you have to commit to the programm.</p>
+    <h2>Who we are.</h2>
+    <p>
+      The idea of Powercoders was ignited by
+      <a href="https://www.facebook.com/dita.prikrylova">Dita Prikrylova</a>,
+      <a href="https://www.facebook.com/cornelia.mayer">Cornelia Mayer</a>
+      and <a href="https://www.facebook.com/christian.hirsig">Christian Hirsig</a>
+      during the Young Transatlantic Innovation Leaders Initiative program.
+    </p>
 
-    <h2>Companies</h2>
-    <p>There is a shortage of skilled IT-workers, especially frontend developers. We presented our idea to IT-companies of all sizes and so far the positive response has been overwhelming.</p>
+    <p>
+      Together with a local team they decided to launch a pilot in Bern. The
+      local core team are:
+    </p>
 
+    <p>
+      <ul>
+        <li>project lead: <a href="https://www.facebook.com/christian.hirsig">Christian Hirsig</a></li>
+        <li>mentoring lead: Sunita Asnani</li>
+        <li>teaching lead: Pawel Kowalski</li>
+        <li>school lead: <a href="https://www.facebook.com/marco.jakob">Marco Jakob</a></li>
+      </ul>
+    </p>
 
-    <h2>Partners</h2>
-    <p>Our main partner for the first Powercoders Code Academy is Migros-Kulturprozent</p>
-    {% for partner in site.data.partners %}
-      <a href="{{partner.url}}"><img class="partner" src="assets/images/partner/{{partner.logo}}"></a>
+    <p>
+      They are supported by the
+      <a href="https://www.effinger.ch/">Effinger</a> and the
+      <a href="http://bern.impacthub.net">Impact Hub</a> communities.
+    </p>
+
+    <p>
+      If you have any questions regarding Powercoders do not hesitate to get
+      <a href="mailto:chris@pacific-catch.ch">in touch with us</a>.
+    </p>
+
+    <h2>We are supported.</h2>
+
+    {% for kind in site.data.partners %}
+      <h3>{{kind.title}}</h3>
+      {% for partner in kind.list %}
+        <p class="is-centered">
+          <a href="{{partner.url}}"><img class="partner" src="assets/images/partner/{{partner.logo}}"></a>
+        </p>
+      {% endfor %}
     {% endfor %}
-    <p>We are a non profit organisation and need your support! Any small contribution is welcome. Please get in touch with our Head of School Bern, <a href="mailto:chris@pacific-catch.ch">Christian Hirsig</a></p>
-    <h2>Contact</h2>
-    <a href="mailto:chris@pacific-catch.ch">chris@pacific-catch.ch</a>
   </div>
 </main>

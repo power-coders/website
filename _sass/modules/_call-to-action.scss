@@ -3,21 +3,31 @@
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
   padding: 1em;
   margin: 1em;
-  width: 10em;
+  width: 20em;
   color: white;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
 
   .call-to-action-title {
     font-family: $font-alt;
+    font-size: 120%;
     font-weight: 700;
     color: white;
   }
 
-  .call-to-action-link {
-    // color: inherit;
-    // text-decoration: underline;
+  a.call-to-action-link {
+    flex: 0 0 auto;
+    display: block;
+    background-color: white;
+    color: $color-accent;
+    margin: -1em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    padding: 1em;
   }
   .call-to-action-link:hover {
-    // background-color: #67CA2F;
-    // color: black;
+    color: darken($color-accent, 20%);
+    background-color: lighten($color-alt, 40%);
   }
 }

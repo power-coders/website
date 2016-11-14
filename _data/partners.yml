@@ -1,4 +1,7 @@
 -
-  name: Migros Kulturprozent
-  logo: migros-kulturprozent.gif
-  url: http://www.migros-kulturprozent.ch
+  title: Main partner
+  list:
+    -
+      name: Migros Kulturprozent
+      logo: migros-kulturprozent.gif
+      url: http://www.migros-kulturprozent.ch

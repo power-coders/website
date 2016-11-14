@@ -9,20 +9,20 @@
   & > * {
     display: block;
     margin: 0 auto;
-    max-width: 40em;
+    max-width: 40rem;
   }
 
   &.is-wide > * {
-    max-width: 60em;
+    max-width: 60rem;
   }
 
   &.is-flex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     * {
-      flex: 1 0 auto;
+      flex: 1 1 auto;
     }
   }
 }

@@ -3,5 +3,6 @@ body {
 }
 
 a {
+  color: darken($color-accent, 10%);
   text-decoration: underline;
 }
