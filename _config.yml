@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Powercoders - Impacting lives by teaching to code
+title: Powercoders
 email: chris@pacific-catch.ch
 description: > # Powercoders is a coding academy for refugees. The first 12 weeks boot-camp will take place from January to April 2017 in Bern.
 url: http://powercoders.org # the base hostname & protocol for your site, e.g. http://example.com
