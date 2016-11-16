@@ -11,6 +11,9 @@
 
 // modules
 
+// TODO: modules grid and call to action behave differently depending on
+// order, this should be refactored so order of thcss does not matter.
+
 @import "modules/grid";
 @import "modules/hero";
 @import "modules/partner";
