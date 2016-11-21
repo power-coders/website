@@ -24,7 +24,6 @@ sass:
     style: compressed
 
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
