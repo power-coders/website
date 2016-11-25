@@ -16,7 +16,7 @@ Trotz guter Qualifikationen gelingt es Flüchtlingen und Migranten oft nicht, e
 
 ## Zielsetzungen
 
-Während des Pilotprojektes Powercoders erhalten die Teilnehmenden die Gelegenheit, sich nach dem Absolvieren eines Programmierkurses während eines drei- bis sechsmonatigen Praktikums in der IT Abteilung eines Unternehmens zu zeigen was sie können. Das Ziel ist, dass sie sich nach dem Praktikum für eine Festanstellung qualifizieren. Damit dieses Ziel erreicht werden kann, ist nicht nur die fachliche Wissensebene nötig, sondern auch eine soziale Integration, die auf wechselseitiger Anerkennung und Partizipation beruht.
+Während des Pilotprojektes Powercoders erhalten die Teilnehmenden die Gelegenheit, nach dem Absolvieren eines Programmierkurses während eines drei- bis sechsmonatigen Praktikums in der IT Abteilung eines Unternehmens zu zeigen was sie können. Das Ziel ist, dass sie sich nach dem Praktikum für eine Festanstellung qualifizieren. Damit dieses Ziel erreicht werden kann, ist nicht nur die fachliche Wissensebene nötig, sondern auch eine soziale Integration, die auf wechselseitiger Anerkennung und Partizipation beruht.
 
 Das Mentoring Programm hat das Ziel, die Flüchtlinge bei diesem Prozess zu unterstützen. Dies kann in Form von Begleitung und - wo vom Mentee erwünscht - Beratung stattfinden sowie durch einen Wissensaustausch zwischen Mentee und Mentor. Die Themen und Aktivitäten schöpfen sich aus den individuellen und persönlichen Bedürfnissen der Mentees und Interessen der Mentoren. Folgende Bereiche könnten sich dafür anbieten:
 
