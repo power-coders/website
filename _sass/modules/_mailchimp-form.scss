@@ -10,11 +10,10 @@
     text-align:center; padding:10px 0 10px 0;
   }
   input.email {
-    font-family:"Roboto Slab", serif;
+    font:inherit;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background-color: #fff;
     box-sizing:border-box;
     height:40px;
     padding: 0px 0.4em;
@@ -22,6 +21,8 @@
     margin: 0;
     width:350px;
     vertical-align:top;
+    border-style:solid;
+    border-width: 1px;
   }
   label {
     display:block;
@@ -33,7 +34,7 @@
     display: inline-block;
   } /* positions button horizontally in line with input */
   .button {
-    font-size: inherit;
+    font: inherit;
     border: none;
     border-radius: 3px;
     letter-spacing: .03em;
