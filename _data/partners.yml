@@ -5,3 +5,10 @@
       name: Migros Kulturprozent
       logo: migros-kulturprozent.gif
       url: http://www.migros-kulturprozent.ch
+-
+  title: Co-Sponsor
+  list:
+    -
+      name: Raiffeisen
+      logo: raiffeisen.svg
+      url: https://www.raiffeisen.ch
