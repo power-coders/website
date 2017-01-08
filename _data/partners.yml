@@ -12,3 +12,36 @@
       name: Raiffeisen
       logo: raiffeisen.svg
       url: https://www.raiffeisen.ch
+-
+  title: Internship-Partner
+  description: Provide Interships for the trained refugees.
+  list:
+    -
+      name: Cubetech
+      logo: cubetech.svg
+      background-color: "#b60c00"
+      url: https://www.cubetech.ch/
+    -
+      name: Gonnado
+      logo: gonnado.png
+      url: https://gonnado.com
+    -
+      name: Iterativ
+      logo: iterativ.svg
+      url: http://www.iterativ.ch/
+    -
+      name: Mobiliar
+      logo: mobiliar.svg
+      url: https://www.mobiliar.ch
+    -
+      name: Puzzle ITC
+      logo: puzzle.svg
+      url: https://www.puzzle.ch/de/
+    -
+      name: REEA Group Schweiz
+      logo: reea.png
+      url: http://reea.net/
+    -
+      name: Swisscom
+      logo: swisscom.png
+      url: https://www.swisscom.ch

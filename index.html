@@ -141,15 +141,18 @@ title: coding academy for refugees
       in touch with us at <a href="mailto:info@powercoders.org">info@powercoders.org</a>.
     </p>
 
-    <h2>We are supported.</h2>
-
+  </div>
+  <h2>We are supported.</h2>
     {% for kind in site.data.partners %}
       <h3>{{kind.title}}</h3>
-      {% for partner in kind.list %}
-        <p class="is-centered">
-          <a href="{{partner.url}}"><img class="partner" src="assets/images/partner/{{partner.logo}}"></a>
-        </p>
-      {% endfor %}
+      <div class="container is-flex">
+        {% for partner in kind.list %}
+          <div class="partner" {%if partner.background-color %}style="background-color: {{partner.background-color}}"{% endif%}>
+            <a href="{{partner.url}}">
+              <img src="/assets/images/partner/{{partner.logo}}">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
     {% endfor %}
-  </div>
 </main>
