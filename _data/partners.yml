@@ -17,6 +17,27 @@
   description: Provide Interships for the trained refugees.
   list:
     -
+      name: 89grad
+      logo: 89grad.png
+      url: https://www.89grad.ch/
+    -
+      name: Adesso
+      logo: adesso.svg
+      url: https://www.adesso.ch
+    -
+      name: Apps with love
+      logo: apps-with-love.jpg
+      url: http://appswithlove.com/
+    -
+      name: Axon Ivy
+      logo: axon-ivy.png
+      url: http://www.axonivy.com/
+    -
+      name: business4you
+      logo: business4you.png
+      url: http://www.business4you.ch/
+      background-color: "#353535"
+    -
       name: Cubetech
       logo: cubetech.svg
       url: https://www.cubetech.ch/
@@ -24,22 +45,34 @@
       name: Gonnado
       logo: gonnado.png
       url: https://gonnado.com
+    # -
+    #   name: Iterativ
+    #   logo: iterativ.svg
+    #   url: http://www.iterativ.ch/
     -
-      name: Iterativ
-      logo: iterativ.svg
-      url: http://www.iterativ.ch/
+      name: Liip
+      logo: liip.png
+      url: https://www.liip.ch
+    -
+      name: Migros Aare
+      logo: migros.svg
+      url: https://www.migros.ch/aare
     -
       name: Mobiliar
       logo: mobiliar.svg
       url: https://www.mobiliar.ch
+    # -
+    #   name: Puzzle ITC
+    #   logo: puzzle.svg
+    #   url: https://www.puzzle.ch/de/
+    # -
+    #   name: REEA Group Schweiz
+    #   logo: reea.png
+    #   url: http://reea.net/
     -
-      name: Puzzle ITC
-      logo: puzzle.svg
-      url: https://www.puzzle.ch/de/
-    -
-      name: REEA Group Schweiz
-      logo: reea.png
-      url: http://reea.net/
+      name: Smart Factory
+      logo: smart-factory.png
+      url: https://www.smartfactory.ch/
     -
       name: Swisscom
       logo: swisscom.png
