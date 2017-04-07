@@ -42,6 +42,10 @@
       logo: cubetech.svg
       url: https://www.cubetech.ch/
     -
+      name: Datalets
+      logo: datalets.png
+      url: https://github.com/datalets
+    -
       name: Gonnado
       logo: gonnado.png
       url: https://gonnado.com
@@ -61,10 +65,10 @@
       name: Mobiliar
       logo: mobiliar.svg
       url: https://www.mobiliar.ch
-    # -
-    #   name: Puzzle ITC
-    #   logo: puzzle.svg
-    #   url: https://www.puzzle.ch/de/
+    -
+      name: Puzzle ITC
+      logo: puzzle.svg
+      url: https://www.puzzle.ch/de/
     # -
     #   name: REEA Group Schweiz
     #   logo: reea.png
