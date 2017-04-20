@@ -12,6 +12,12 @@
       name: Raiffeisen
       logo: raiffeisen.svg
       url: https://www.raiffeisen.ch
+- title: HR-Partner
+  list:
+    -
+      name: p3b
+      logo: p3b.png
+      url: http://www.p3b.ch/
 -
   title: Internship-Partner
   description: Provide Interships for the trained refugees.
@@ -20,18 +26,18 @@
       name: 89grad
       logo: 89grad.png
       url: https://www.89grad.ch/
-    -
-      name: Adesso
-      logo: adesso.svg
-      url: https://www.adesso.ch
+    # -
+    #   name: Adesso
+    #   logo: adesso.svg
+    #   url: https://www.adesso.ch
     -
       name: Apps with love
       logo: apps-with-love.jpg
       url: http://appswithlove.com/
-    -
-      name: Axon Ivy
-      logo: axon-ivy.png
-      url: http://www.axonivy.com/
+    # -
+    #   name: Axon Ivy
+    #   logo: axon-ivy.png
+    #   url: http://www.axonivy.com/
     -
       name: business4you
       logo: business4you.png
@@ -45,10 +51,10 @@
       name: Datalets
       logo: datalets.png
       url: https://github.com/datalets
-    -
-      name: Gonnado
-      logo: gonnado.png
-      url: https://gonnado.com
+    # -
+    #   name: Gonnado
+    #   logo: gonnado.png
+    #   url: https://gonnado.com
     # -
     #   name: Iterativ
     #   logo: iterativ.svg
@@ -73,10 +79,10 @@
     #   name: REEA Group Schweiz
     #   logo: reea.png
     #   url: http://reea.net/
-    -
-      name: Smart Factory
-      logo: smart-factory.png
-      url: https://www.smartfactory.ch/
+    # -
+    #   name: Smart Factory
+    #   logo: smart-factory.png
+    #   url: https://www.smartfactory.ch/
     -
       name: Swisscom
       logo: swisscom.png
