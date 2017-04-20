@@ -87,3 +87,10 @@
       name: Swisscom
       logo: swisscom.png
       url: https://www.swisscom.ch
+      
+- title: Online Learning Partner
+  list:
+    -
+      name: Code School
+      logo: codeschool.svg
+      url: https://www.codeschool.com
