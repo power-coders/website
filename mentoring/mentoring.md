@@ -26,10 +26,10 @@ Das Mentoring Programm hat das Ziel, die Flüchtlinge bei diesem Prozess zu unte
 * **Angebote in Bern**, z.B. Sportanlässe, Bibliotheken, Beratungsstellen, Brockenhäuser etc.
 * **andere Themen**, die aus den Bedürfnissen der Mentees/Mentoren hervorgehen
 
-Die Mentoren fungieren als Türöffner zu Gelegenheiten, bei denen die Mentees vermehrt ihrePotenziale, Fähigkeiten und Kompetenzen einbringen können. Es findet ein Austausch statt,von dem beide Seiten profitieren. Besonders wichtig ist es für Powercoders, dass einVertrauensverhältnis entsteht zwischen Mentees und Mentoren.
+Die Mentoren fungieren als Türöffner zu Gelegenheiten, bei denen die Mentees vermehrt ihre Potenziale, Fähigkeiten und Kompetenzen einbringen können. Es findet ein Austausch statt, von dem beide Seiten profitieren. Besonders wichtig ist es für Powercoders, dass ein Vertrauensverhältnis entsteht zwischen Mentees und Mentoren.
 
-Mentoren und Mentees formulieren in Begleitung der Leiterin Mentoring gemeinsam die Zieleund legen Spielregeln fest. Sie bauen ein Verhältnis auf gleicher Augenhöhe auf. Mentoreninformieren das Leitungsteam Powercoders frühzeitig, wenn sich bei ihren Mentees eine Kriseanbahnt oder sonstige Schwierigkeiten auftauchen.
+Mentoren und Mentees formulieren in Begleitung der Leiterin Mentoring gemeinsam die Ziele und legen Spielregeln fest. Sie bauen ein Verhältnis auf gleicher Augenhöhe auf. Mentoren informieren das Leitungsteam Powercoders frühzeitig, wenn sich bei ihren Mentees eine Krise anbahnt oder sonstige Schwierigkeiten auftauchen.
 
 # Zeitrahmen
 
-Das Mentoring beginnt Ende September 2017  und endet offiziell mit dem Abschluss desPraktikums im Juli 2018. Der Zeitaufwand ist ein wöchentliches Treffen mit dem Mentee. ZuBeginn des Mentoring finden zudem ein bis zwei von Powercoders organisierte Workshopsstatt.
+Das Mentoring beginnt Ende September 2017  und endet offiziell mit dem Abschluss des Praktikums im Juli 2018. Der Zeitaufwand ist ein wöchentliches Treffen mit dem Mentee. Zu Beginn des Mentoring finden zudem ein bis zwei von Powercoders organisierte Workshops statt.
