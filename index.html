@@ -33,8 +33,8 @@ title: coding academy for refugees
   </div>
 
   <div class="container is-wide is-flex is-alt-color">
-
-      {% for call in site.action_calls %}
+      {% assign sorted_calls = site.action_calls | sort:"order" %}
+      {% for call in sorted_calls %}
         <div class="call-to-action">
           <div>
             <div class="call-to-action-title">{{call.title}}</div>

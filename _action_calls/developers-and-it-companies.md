@@ -3,6 +3,7 @@ title: 'We are looking for developers and IT-companies!'
 link_url: 'http://goo.gl/cj8WTH'
 link_text: Sign up
 display: true
+order: 3
 ---
 
 
