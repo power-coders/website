@@ -40,7 +40,9 @@ title: coding academy for refugees
             <div class="call-to-action-title">{{call.title}}</div>
             <p>{{call.content}}</p>
           </div>
-          <a class="call-to-action-link" href="{{call.link_url}}">{{call.link_text}}</a>
+          {% if call.link_text%}
+            <a class="call-to-action-link" href="{{call.link_url}}">{{call.link_text}}</a>
+          {% endif %}
         </div>
       {% endfor %}
 
