@@ -3,20 +3,20 @@
   list:
     -
       name: Migros Kulturprozent
-      logo: migros-kulturprozent.gif
+      logo_path: /assets/images/partner/migros-kulturprozent.gif
       url: http://www.migros-kulturprozent.ch
 -
   title: Co-Sponsor
   list:
     -
       name: Raiffeisen
-      logo: raiffeisen.svg
+      logo_path: /assets/images/partner/raiffeisen.svg
       url: https://www.raiffeisen.ch
 - title: HR-Partner
   list:
     -
       name: p3b
-      logo: p3b.png
+      logo_path: /assets/images/partner/p3b.png
       url: http://www.p3b.ch/
 -
   title: Internship-Partner
@@ -24,73 +24,73 @@
   list:
     -
       name: 89grad
-      logo: 89grad.png
+      logo_path: /assets/images/partner/89grad.png
       url: https://www.89grad.ch/
     # -
     #   name: Adesso
-    #   logo: adesso.svg
+    #   logo_path: /assets/images/partner/adesso.svg
     #   url: https://www.adesso.ch
     -
       name: Apps with love
-      logo: apps-with-love.jpg
+      logo_path: /assets/images/partner/apps-with-love.jpg
       url: http://appswithlove.com/
     # -
     #   name: Axon Ivy
-    #   logo: axon-ivy.png
+    #   logo_path: /assets/images/partner/axon-ivy.png
     #   url: http://www.axonivy.com/
     -
       name: business4you
-      logo: business4you.png
+      logo_path: /assets/images/partner/business4you.png
       url: http://www.business4you.ch/
       background-color: "#353535"
     -
       name: Cubetech
-      logo: cubetech.svg
+      logo_path: /assets/images/partner/cubetech.svg
       url: https://www.cubetech.ch/
     -
       name: Datalets
-      logo: datalets.png
+      logo_path: /assets/images/partner/datalets.png
       url: https://github.com/datalets
     # -
     #   name: Gonnado
-    #   logo: gonnado.png
+    #   logo_path: /assets/images/partner/gonnado.png
     #   url: https://gonnado.com
     # -
     #   name: Iterativ
-    #   logo: iterativ.svg
+    #   logo_path: /assets/images/partner/iterativ.svg
     #   url: http://www.iterativ.ch/
     -
       name: Liip
-      logo: liip.png
+      logo_path: /assets/images/partner/liip.png
       url: https://www.liip.ch
     -
       name: Migros Aare
-      logo: migros.svg
+      logo_path: /assets/images/partner/migros.svg
       url: https://www.migros.ch/aare
     -
       name: Mobiliar
-      logo: mobiliar.svg
+      logo_path: /assets/images/partner/mobiliar.svg
       url: https://www.mobiliar.ch
     -
       name: Puzzle ITC
-      logo: puzzle.svg
+      logo_path: /assets/images/partner/puzzle.svg
       url: https://www.puzzle.ch/de/
     # -
     #   name: REEA Group Schweiz
-    #   logo: reea.png
+    #   logo_path: /assets/images/partner/reea.png
     #   url: http://reea.net/
     # -
     #   name: Smart Factory
-    #   logo: smart-factory.png
+    #   logo_path: /assets/images/partner/smart-factory.png
     #   url: https://www.smartfactory.ch/
     -
       name: Swisscom
-      logo: swisscom.png
+      logo_path: /assets/images/partner/swisscom.png
       url: https://www.swisscom.ch
       
 - title: Online Learning Sponsor
   list:
     -
       name: Code School
-      logo: codeschool.svg
+      logo_path: /assets/images/partner/codeschool.svg
       url: https://www.codeschool.com

@@ -84,7 +84,7 @@ title: coding academy for refugees
         {% for partner in kind.list %}
           <div class="partner" {%if partner.background-color %}style="background-color: {{partner.background-color}}"{% endif%}>
             <a href="{{partner.url}}">
-              <img src="/assets/images/partner/{{partner.logo}}">
+              <img src="{{partner.logo_path}}">
             </a>
           </div>
         {% endfor %}
