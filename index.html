@@ -34,28 +34,16 @@ title: coding academy for refugees
 
   <div class="container is-wide is-flex is-alt-color">
 
-      {% include call-to-action.html
-          title="We are looking for students!"
-          description="
-            <p>The program is primarily meant for refugees (status B and F) but also other migrants. We are looking for women and men with experience or a special talent in IT. We are expecting fluency in English and full commitment.</p><p>Are you interested to participate as a student?</p><p>Join our info session July 3rd, 6.30pm at Impact Hub (Bogen D, Viaduktstrasse 93, 8005 Zürich)</p>"
-	  link_url="https://goo.gl/37QkT1"
-	  link_text="Sign up!"
-      %}
-      {% include call-to-action.html
-          title="We are looking for developers and IT-companies"
-          description="
-            <p>Are you a developer or an IT-company in Zürich and interested in supporting our program by coaching/ teaching on a voluntary basis or offering a trainee program?</p><br><p>
-Join our info session June 19th, 6.30pm at Impact Hub (Bogen D, Viaduktstrasse 93, 8005 Zürich)</p>"
-          link_url="http://goo.gl/cj8WTH"
-          link_text="Sign up"
-      %}
-      {% include call-to-action.html
-          title="We are looking for Mentors."
-          description='
-            <p>Arriving in a new country is never easy. Our students have to learn a lot about Switzerland as a country and society, and how it works. Therefore we want to support them with mentors at eye level throughout the whole program. The mentors work on a voluntary basis. More information concerning the mentoring you <a href="/mentoring/">find here</a> (in German)</p><p>Are you interested to participate as a mentor?</p><p>Join our info session June 19th, 6.30pm at Impact Hub (Bogen D, Viaduktstrasse 93, 8005 Zürich)</p><p>Or apply: <a href="mailto:sunita.asnani@powercoders.org">sunita.asnani@powercoders.org</a></p>'
-          link_url="http://goo.gl/cj8WTH"
-          link_text="Sign up"
-      %}
+      {% for call in site.action_calls %}
+        <div class="call-to-action">
+          <div>
+            <div class="call-to-action-title">{{call.title}}</div>
+            <p>{{call.content}}</p>
+          </div>
+          <a class="call-to-action-link" href="{{call.link_url}}">{{call.link_text}}</a>
+        </div>
+      {% endfor %}
+
 
   </div>
 
