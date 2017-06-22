@@ -3,11 +3,6 @@
     - name: Arcas Foundaion
       logo_path: /logo_arcas_rgb_rz.jpg
       url: 'http://arcas-foundation.ch/'
-- title: Co-Sponsor
-  list:
-    - name: Raiffeisen
-      logo_path: /assets/images/partner/raiffeisen.svg
-      url: 'https://www.raiffeisen.ch'
 - title: HR-Partner
   list:
     - name: p3b
