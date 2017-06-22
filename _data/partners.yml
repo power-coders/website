@@ -1,96 +1,54 @@
--
-  title: Main partner
+- title: Main partner
   list:
-    -
-      name: Migros Kulturprozent
-      logo_path: /assets/images/partner/migros-kulturprozent.gif
-      url: http://www.migros-kulturprozent.ch
--
-  title: Co-Sponsor
+    - name: Arcas Foundaion
+      logo_path: /logo_arcas_rgb_rz.jpg
+      url: 'http://arcas-foundation.ch/'
+- title: Co-Sponsor
   list:
-    -
-      name: Raiffeisen
+    - name: Raiffeisen
       logo_path: /assets/images/partner/raiffeisen.svg
-      url: https://www.raiffeisen.ch
+      url: 'https://www.raiffeisen.ch'
 - title: HR-Partner
   list:
-    -
-      name: p3b
+    - name: p3b
       logo_path: /assets/images/partner/p3b.png
-      url: http://www.p3b.ch/
--
-  title: Internship-Partner
+      url: 'http://www.p3b.ch/'
+- title: Internship-Partner
   description: Provide Interships for the trained refugees.
   list:
-    -
-      name: 89grad
+    - name: 89grad
       logo_path: /assets/images/partner/89grad.png
-      url: https://www.89grad.ch/
-    # -
-    #   name: Adesso
-    #   logo_path: /assets/images/partner/adesso.svg
-    #   url: https://www.adesso.ch
-    -
-      name: Apps with love
+      url: 'https://www.89grad.ch/'
+    - name: Apps with love
       logo_path: /assets/images/partner/apps-with-love.jpg
-      url: http://appswithlove.com/
-    # -
-    #   name: Axon Ivy
-    #   logo_path: /assets/images/partner/axon-ivy.png
-    #   url: http://www.axonivy.com/
-    -
-      name: business4you
+      url: 'http://appswithlove.com/'
+    - name: business4you
       logo_path: /assets/images/partner/business4you.png
-      url: http://www.business4you.ch/
-      background-color: "#353535"
-    -
-      name: Cubetech
+      url: 'http://www.business4you.ch/'
+      background-color: '#353535'
+    - name: Cubetech
       logo_path: /assets/images/partner/cubetech.svg
-      url: https://www.cubetech.ch/
-    -
-      name: Datalets
+      url: 'https://www.cubetech.ch/'
+    - name: Datalets
       logo_path: /assets/images/partner/datalets.png
-      url: https://github.com/datalets
-    # -
-    #   name: Gonnado
-    #   logo_path: /assets/images/partner/gonnado.png
-    #   url: https://gonnado.com
-    # -
-    #   name: Iterativ
-    #   logo_path: /assets/images/partner/iterativ.svg
-    #   url: http://www.iterativ.ch/
-    -
-      name: Liip
+      url: 'https://github.com/datalets'
+    - name: Liip
       logo_path: /assets/images/partner/liip.png
-      url: https://www.liip.ch
-    -
-      name: Migros Aare
+      url: 'https://www.liip.ch'
+    - name: Migros Aare
       logo_path: /assets/images/partner/migros.svg
-      url: https://www.migros.ch/aare
-    -
-      name: Mobiliar
+      url: 'https://www.migros.ch/aare'
+    - name: Mobiliar
       logo_path: /assets/images/partner/mobiliar.svg
-      url: https://www.mobiliar.ch
-    -
-      name: Puzzle ITC
+      url: 'https://www.mobiliar.ch'
+    - name: Puzzle ITC
       logo_path: /assets/images/partner/puzzle.svg
-      url: https://www.puzzle.ch/de/
-    # -
-    #   name: REEA Group Schweiz
-    #   logo_path: /assets/images/partner/reea.png
-    #   url: http://reea.net/
-    # -
-    #   name: Smart Factory
-    #   logo_path: /assets/images/partner/smart-factory.png
-    #   url: https://www.smartfactory.ch/
-    -
-      name: Swisscom
+      url: 'https://www.puzzle.ch/de/'
+    - name: Swisscom
       logo_path: /assets/images/partner/swisscom.png
-      url: https://www.swisscom.ch
-      
+      url: 'https://www.swisscom.ch'
 - title: Online Learning Sponsor
   list:
-    -
-      name: Code School
+    - name: Code School
       logo_path: /assets/images/partner/codeschool.svg
-      url: https://www.codeschool.com
+      url: 'https://www.codeschool.com'
