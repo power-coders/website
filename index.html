@@ -45,8 +45,18 @@ title: coding academy for refugees
           {% endif %}
         </div>
       {% endfor %}
+  </div>
 
-
+  <div class="container">
+    <h2>Blogposts and News Articles</h2>
+    <table>
+      {% assign sorted_articles = site.data.media | sort: 'date' | reverse %}
+      {% for article in sorted_articles %}
+      <tr>
+        <td>{{ article.date | date: "%-d. %-m. %Y" }}</td><td><a href="{{article.url}}"> {{article.title}}</td>
+      </tr>
+      {% endfor %}
+    </table>
   </div>
 
 
