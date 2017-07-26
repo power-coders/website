@@ -53,42 +53,14 @@ title: coding academy for refugees
       {% assign sorted_articles = site.data.media | sort: 'date' | reverse %}
       {% for article in sorted_articles %}
       <tr>
-        <td>{{ article.date | date: "%-d. %-m. %Y" }}</td><td><a href="{{article.url}}"> {{article.title}}</td>
+        <td>{{ article.date | date: "%-d. %-m. %Y" }}</td><td><a href="{{article.url}}"> {{article.title}}</a></td>
       </tr>
       {% endfor %}
     </table>
   </div>
 
 
-  <div class="container editable">
-    <h2>Who we are.</h2>
-    <p>We are a very dedicated core team supported by over a hundred of volunteers.</p>
-    <p>
-      The core team for Zürich:
-    </p>
-
-    <p>
-      <ul>
-        <li>project lead: Christian Hirsig, serial entrepreneur</li>
-        <li>mentoring lead: Sunita Asnani, social worker and dancer</li>
-        <li>teaching lead: vacant, please apply <a href="mailto:christian.hirsig@powercoders.org">Christian Hirsig</a></li>
-        <li>operational lead: Hussam Eddin Allaham, Powercoder #001</li>
-        <li>advisor: Hannes Gassert, serial entrepreneur</li>
-      </ul>
-
-
-    </p>
-
-    <p>
-        We are supported by the <a href="https://zurich.impacthub.ch/">Impact Hub community</a>.
-    </p>
-
-    <p>
-      If you have any questions regarding Powercoders do not hesitate to get
-      in touch with us at <a href="mailto:info@powercoders.org">info@powercoders.org</a>.
-    </p>
-
-  </div>
+  <div class="container editable"><h2>Who we are.</h2><p>We are a very dedicated core team supported by over a hundred of volunteers.</p><p>The core team for Z&uuml;rich:</p><p>&nbsp;</p><ul><li>project lead: Christian Hirsig, serial entrepreneur</li><li>mentoring lead: Sunita Asnani, social worker and dancer</li><li>teaching lead: Matthias H&uuml;ni, software engineer</li><li>operational lead: Hussam Eddin Allaham, Powercoder #001</li><li>advisor: Hannes Gassert, serial entrepreneur</li></ul><p>&nbsp;</p><p>We are supported by the <a href="https://zurich.impacthub.ch/">Impact Hub community</a>.</p><p>If you have any questions regarding Powercoders do not hesitate to get in touch with us at <a href="mailto:info@powercoders.org">info@powercoders.org</a>.</p></div>
   <h2>We are supported.</h2>
     {% for kind in site.data.partners %}
       <h3>{{kind.title}}</h3>
