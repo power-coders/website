@@ -5,12 +5,18 @@
       url: 'http://arcas-foundation.ch/'
 - title: Community Partner
   list:
-    - name: p3b
-      logo_path: /assets/images/partner/p3b.png
-      url: 'http://www.p3b.ch/'
     - name: HackZurich
       logo_path: /uploads/hackzurichlogosquare-rgb-new-green.png
       url: 'http://hackzurich.com/'
+    - name: p3b
+      logo_path: /assets/images/partner/p3b.png
+      url: 'http://www.p3b.ch/'
+    - name: Impact Hub
+      logo_path: /uploads/impact-hub.jpg
+      url: 'http://www.impacthub.net/'
+    - name: Effinger
+      logo_path: /uploads/effinger.png
+      url: 'https://www.effinger.ch/'
 - title: Internship-Partner
   description: Provide Interships for the trained refugees.
   list:
