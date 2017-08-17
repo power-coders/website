@@ -1,4 +1,4 @@
-- title: Main partner
+- title: Main Partner
   list:
     - name: Arcas Foundaion
       logo_path: /logo_arcas_rgb_rz.jpg
@@ -17,7 +17,7 @@
     - name: Effinger
       logo_path: /uploads/effinger.png
       url: 'https://www.effinger.ch/'
-- title: Internship-Partner
+- title: Internship Partner
   description: Provide Interships for the trained refugees.
   list:
     - name: 89grad
