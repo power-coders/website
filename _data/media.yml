@@ -1,24 +1,25 @@
-- 
-  url: http://onlinemagazin.business4you.ch/webdevelopment-als-integrationsweg-nutzen
+- url: >-
+    http://onlinemagazin.business4you.ch/webdevelopment-als-integrationsweg-nutzen
   title: Webdevelopment als Integrationsweg nutzen
-  date: 2017-07-06
-- 
-  url: http://www.bernerzeitung.ch/region/bern/mit-javascript-zum-ersten-job/story/28217431
+  date: 2017-07-06 00:00:00
+- url: >-
+    http://www.bernerzeitung.ch/region/bern/mit-javascript-zum-ersten-job/story/28217431
   title: Mit Javascript zum ersten Job
-  date: 2017-02-20
--
-  url: http://www.derbund.ch/bern/stadt/mit-computercode-in-die-arbeitswelt/story/14938556
+  date: 2017-02-20 00:00:00
+- url: >-
+    http://www.derbund.ch/bern/stadt/mit-computercode-in-die-arbeitswelt/story/14938556
   title: Mit Computercode in die Arbeitswelt
-  date: 2016-12-31
--
-  url: http://www.bernerzeitung.ch/region/kanton-bern/itloesung-fuer-fluechtlinge/story/29590976
+  date: 2016-12-31 00:00:00
+- url: >-
+    http://www.bernerzeitung.ch/region/kanton-bern/itloesung-fuer-fluechtlinge/story/29590976
   title: IT-Lösung für Flüchtlinge
-  date: 2016-12-01
--
-  url: http://www.pszeitung.ch/powercoders-programmieren-statt-putzen/
+  date: 2016-12-01 00:00:00
+- url: 'http://www.pszeitung.ch/powercoders-programmieren-statt-putzen/'
   title: Programmieren statt putzen
-  date: 2017-07-07
--
-  url: https://tsri.ch/zh/powercoders-hier-programmieren-gefluchtete/#
+  date: 2017-07-07 00:00:00
+- url: 'https://tsri.ch/zh/powercoders-hier-programmieren-gefluchtete/#'
   title: 'Powercoders: Hier programmieren Geflüchtete'
-  date: 2017-07-10
+  date: 2017-07-10 00:00:00
+- url: 'http://laufbahninfo.ch/powercoders-it-kurs-als-flucht-nach-vorn/'
+  title: 'Powercoders: IT-Kurs als Flucht nach vorn'
+  date: 2017-08-09 00:00:00
