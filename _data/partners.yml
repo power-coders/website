@@ -53,6 +53,6 @@
       url: 'https://www.swisscom.ch'
 - title: Online Learning Sponsor
   list:
-    - name: Code School
-      logo_path: /assets/images/partner/codeschool.svg
-      url: 'https://www.codeschool.com'
+    - name: Free Code Camp
+      logo_path: /uploads/images.png
+      url: 'https://www.freecodecamp.org/'
