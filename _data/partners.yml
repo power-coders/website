@@ -3,6 +3,11 @@
     - name: Arcas Foundaion
       logo_path: /logo_arcas_rgb_rz.jpg
       url: 'http://arcas-foundation.ch/'
+- title: Hardware Partner
+  list:
+    - name: Microsoft
+      logo_path: /uploads/microsoft-logo-cmyk-c-gray.pdf
+      url: 'https://www.microsoft.com/fr-ch/'
 - title: Community Partner
   list:
     - name: HackZurich
