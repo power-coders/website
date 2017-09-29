@@ -9,6 +9,6 @@ order: 4
 
 Are you an IT-company in Z&uuml;rich and are you interested in supporting us by offering a trainee program?
 
-Join us for the next info event if you want to know and get more information:&nbsp;[RSVP Info Event](https://goo.gl/forms/0tK31TnsZNKDC19h1)
+Join us for the next info event on 26th October if you want to know and get more information:&nbsp;[RSVP Info Event](https://goo.gl/forms/0tK31TnsZNKDC19h1)
 
 Support us!
